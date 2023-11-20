@@ -9,7 +9,6 @@ const SpaceTab = () => {
   const [selectedSpace, setSelectedSpace] = useState(
     SPACETAB_OPTIONS.find(({ id }) => id === 1)
   );
-  console.log(selectedSpace);
   return (
     <div className="p-[40px] lg:p-[80px]">
       <h4 className={classes.titleText}>Nordspace erdvės</h4>

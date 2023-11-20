@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./index.module.css";
-import cx from "classnames";
 
 const SpaceInfoCard = ({ space }) => {
   return (
@@ -8,7 +7,7 @@ const SpaceInfoCard = ({ space }) => {
       <img
         className={classes.cardImage}
         src="./images/info_card_img.png"
-        alt="card image"
+        alt="card"
       />
       <div className="px-[24px]">
         <div className="flex gap-[8px] mt-[22px] items-center">
