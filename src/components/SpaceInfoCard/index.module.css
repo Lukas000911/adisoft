@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.infoCardHolder {
+  height: 480px;
+  width: 413px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.infoCardHolder img {
+  border-radius: 8px;
+}
+
+.placeText {
+  color: #008585;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+
+.infoButton {
+  width: 365px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--Blue, #008585);
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+
+.expandIcon {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.occupationText {
+  margin-top: 8px;
+  color: #0c1111;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+}

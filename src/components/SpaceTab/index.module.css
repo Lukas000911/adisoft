@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.titleText {
+  color: var(--Black, #0c1111);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 54px */
+}
+
+.spaceTabSelectionHolder {
+  display: flex;
+  flex-direction: column;
+  width: 318px;
+  height: 524px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--Light-Grey, #f9f9f9);
+  gap: 10px;
+  padding: 20px 18px;
+}
+
+.spaceTabOption {
+  padding: 12px 16px;
+  width: 282px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+  color: var(--Black, #0c1111);
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  cursor: pointer;
+}
+
+.selectedSpace {
+  background-color: #008585;
+  color: white;
+}
+
+.mapHolder {
+  height: 524px;
+  width: 100%;
+  border-radius: 8px;
+  background-image: url("./../../../public/images/spaces_map.png");
+  background-size: cover;
+  background-position: center;
+  padding: 18px;
+}

@@ -1,0 +1,14 @@
+.searchButton {
+  width: 312px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--Blue, #008585);
+  color: white;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}

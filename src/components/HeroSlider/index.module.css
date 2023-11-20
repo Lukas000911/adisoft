@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.gradientOverlay {
+  background: linear-gradient(rgba(66, 66, 66, 0.427), rgba(0, 0, 0, 0));
+  height: 100%;
+  padding: 142px 242px 142px 188px;
+}
+
+.imageContainer {
+  background-image: url("./../../../public/images/hero_slider.png");
+  background-size: cover;
+  background-position: center;
+  height: 668px;
+}
+
+.heroText {
+  color: var(--White, #fff);
+  font-family: "Montserrat", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  width: 522px;
+}
+
+.searchBlock {
+  border-radius: 8px;
+  background: var(--Light-Grey, #f9f9f9);
+  width: 360px;
+  height: 383px;
+  flex-shrink: 0;
+  padding: 32px 24px;
+}
+
+.searchBlockText {
+  color: var(--Black, #0c1111);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.spaceOptions {
+  border-radius: 8px;
+  background: var(--White, #fff);
+  display: flex;
+  width: 98px;
+  height: 48px;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.selectedOption {
+  border: 2px solid #008585;
+}
