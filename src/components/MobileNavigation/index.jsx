@@ -17,7 +17,10 @@ const MobileNavigation = () => {
       className={cx(classes.mobileNav, "flex flex-col items-center")}
       ref={navRef}
     >
-      <div className="pt-4 flex justify-around w-full" onClick={expandMenu}>
+      <div
+        className="pt-4 flex justify-around w-full items-center"
+        onClick={expandMenu}
+      >
         <img
           src="./icons/bars-solid.svg"
           alt="menu burger"

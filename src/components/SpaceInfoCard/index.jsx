@@ -6,8 +6,7 @@ const SpaceInfoCard = ({ space }) => {
   return (
     <div className={classes.infoCardHolder}>
       <img
-        height={306}
-        width={413}
+        className={classes.cardImage}
         src="./images/info_card_img.png"
         alt="card image"
       />

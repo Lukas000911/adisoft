@@ -13,7 +13,7 @@ const Navigation = () => {
         width={200}
         alt="nordspace logo"
       />
-      <div className="flex gap-[48px]">
+      <div className="flex lg:gap-[48px] gap-[36px]">
         {MENU_OPTIONS.map((option, index) => (
           <div key={`${option}_${index}`} className={classes.navText}>
             {option}

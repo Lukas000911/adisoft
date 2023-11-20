@@ -11,9 +11,9 @@ const SpaceTab = () => {
   );
   console.log(selectedSpace);
   return (
-    <div className="p-[80px]">
+    <div className="p-[40px] lg:p-[80px]">
       <h4 className={classes.titleText}>Nordspace erdvės</h4>
-      <div className="flex mt-[32px] gap-[24px]">
+      <div className="flex flex-col mt-[32px] gap-[24px] min-[880px]:flex-row">
         <div className={classes.spaceTabSelectionHolder}>
           {SPACETAB_OPTIONS.map(({ place, id }) => (
             <div

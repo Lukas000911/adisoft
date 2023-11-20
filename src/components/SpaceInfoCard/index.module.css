@@ -7,8 +7,10 @@
   background-color: white;
 }
 
-.infoCardHolder img {
+.cardImage {
   border-radius: 8px;
+  height: 306px;
+  width: 413px;
 }
 
 .placeText {
@@ -48,4 +50,17 @@
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 30px */
+}
+
+@media only screen and (max-width: 600px) {
+  .infoCardHolder {
+    width: 100%;
+  }
+  .infoButton {
+    width: 100%;
+  }
+  .cardImage {
+    width: 100%;
+    height: 60%;
+  }
 }

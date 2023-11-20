@@ -10,7 +10,6 @@ function App() {
   return (
     <div>
       {isTablet ? <MobileNavigation /> : <Navigation />}
-
       <HeroSlider />
       <SpaceTab />
     </div>

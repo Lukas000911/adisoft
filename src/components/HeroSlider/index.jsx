@@ -14,7 +14,7 @@ const HeroSlider = () => {
       <div
         className={cx(
           classes.gradientOverlay,
-          "flex items-center justify-between"
+          "flex items-center lg:justify-between lg:gap-[30px] gap-[20px]"
         )}
       >
         <p className={classes.heroText}>

@@ -58,3 +58,27 @@
 .selectedOption {
   border: 2px solid #008585;
 }
+
+@media only screen and (max-width: 992px) {
+  .gradientOverlay {
+    padding: 52px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .gradientOverlay {
+    flex-direction: column;
+  }
+  .heroText {
+    width: 90%;
+    text-align: center;
+    font-size: 46px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .gradientOverlay {
+    padding: 24px 32px;
+  }
+  .heroText {
+    font-size: 42px;
+  }
+}
