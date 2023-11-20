@@ -23,6 +23,7 @@ const SelectComponent = () => {
         height={24}
         width={24}
         className={classes.selectChevron}
+        alt="down icon"
       />
     </div>
   );

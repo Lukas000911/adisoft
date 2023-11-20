@@ -5,10 +5,20 @@ import cx from "classnames";
 const SpaceInfoCard = ({ space }) => {
   return (
     <div className={classes.infoCardHolder}>
-      <img height={306} width={413} src="./images/info_card_img.png" />
+      <img
+        height={306}
+        width={413}
+        src="./images/info_card_img.png"
+        alt="card image"
+      />
       <div className="px-[24px]">
         <div className="flex gap-[8px] mt-[22px] items-center">
-          <img height={16} width={16} src="./icons/location.png" />
+          <img
+            height={16}
+            width={16}
+            src="./icons/location.png"
+            alt="location icon"
+          />
           <p className={classes.placeText}>{space.address}</p>
         </div>
         <p className={classes.occupationText}>
@@ -21,6 +31,7 @@ const SpaceInfoCard = ({ space }) => {
             height={24}
             width={24}
             className={classes.expandIcon}
+            alt="expand icon"
           />
         </div>
       </div>

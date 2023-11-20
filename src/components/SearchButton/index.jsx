@@ -10,6 +10,7 @@ const SearchButton = () => {
         height={24}
         width={24}
         className={classes.searchIcon}
+        alt="search icon"
       />
     </div>
   );
